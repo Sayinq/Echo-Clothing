@@ -1,6 +1,7 @@
 import React from 'react'
 import '../index.css';
 import TheNavbar from '../components/TheNavbar';
+import HeroSection from '../components/HeroSection';
 
 const Home = () => {
 
@@ -10,9 +11,7 @@ const Home = () => {
 
             {/* Component for swiping horizontally */}
 
-            <section className="w-screen h-screen max-h-[600px] bg-white">
-                <h2>Test Text</h2>
-            </section>
+            <HeroSection />
 
             {/* Locomotive scrolling with grab */}
             {/* Make component for 'scalability' */}
