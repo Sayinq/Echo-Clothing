@@ -1,11 +1,11 @@
 import React from 'react'
-import myLogo from '../assets/personal_logo.png';
+import myLogo from '../assets/echo_logo.png';
 
 const TheNavbar = () => {
     return (
-        <nav className="flex flex-row justify-between items-center w-screen h-auto bg-black p-8">
-            <div id="navlogo">
-                <img src={myLogo} className="w-20 h-20" />
+        <nav className="flex flex-row absolute justify-between items-center w-screen h-auto backdrop-blur-sm px-8 z-50">
+            <div id="navlogo w-full justify-start items-center bg-[#FFFFFF]">
+                <img src={myLogo} className="scale-[30%]" />
             </div>
             <div id="links">
                 <ul className="md:flex hidden text-white font-bold gap-x-8">

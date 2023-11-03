@@ -32,7 +32,7 @@ const HeroSection = () => {
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <div className="relative h-[650px]">
+          <div className="h-[650px]">
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#111111]/60 to-[#111111]/60 z-20" />
             <img src={image} alt={`Hero Image ${index + 1}`} className="object-cover h-full w-full z-10" />
             <div className="flex flex-col absolute bottom-0 left-0 p-4 text-white gap-y-8 pb-8 z-30">

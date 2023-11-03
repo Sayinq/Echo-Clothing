@@ -11,31 +11,31 @@ const items = [
     {
         id: 1,
         imageSrc: refWindbreaker,
-        name: 'Item 1',
+        name: 'Reflective Windbreaker',
         price: '$1200',
     },
     {
         id: 2,
         imageSrc: ashHat,
-        name: 'Item 2',
+        name: 'Ash Hat',
         price: '$800',
     },
     {
         id: 3,
         imageSrc: creamSweatshirt,
-        name: 'Item 2',
+        name: 'Cream Sweatshirt',
         price: '$800',
     },
     {
         id: 4,
         imageSrc: mrefWindbreaker,
-        name: 'Item 2',
+        name: '3M Windbreaker',
         price: '$800',
     },
     {
         id: 5,
         imageSrc: ashPuffer,
-        name: 'Item 2',
+        name: 'Ash Puffer',
         price: '$800',
     },
 
@@ -49,8 +49,8 @@ const items = [
           {items.map((item) => (
             <div key={item.id} id="new-item" className="basis-[250px] snap-start mr-[16px] cursor-pointer">
               <img src={item.imageSrc} alt={item.name} className="w-[250px] max-w-[250px] max-h-[250px] h-fit" />
-              <div className="pt-4">
-                <h2 className="text-[1.25rem] font-semibold m-0">{item.name}</h2>
+              <div className="">
+                <h2 className="text-[1.25rem] font-medium m-0">{item.name}</h2>
                 <p className="m-0">{item.price}</p>
               </div>
             </div>

@@ -4,7 +4,7 @@ import globeLogo from '../assets/globe-outline.svg';
 
 const MarqueeDivider = () => {
     return (
-        <div id="marquee-wrapper" className="bg-black pt-[2px] pb-[1px]">
+        <div id="marquee-wrapper" className="bg-black py-[2px]">
             <Marquee speed={25} autoFill={true} 
                 className="flex flex-row justify-center items-center bg-white">
                 <h1 className="text-medium text-3xl px-4">BEST SELLERS</h1>
