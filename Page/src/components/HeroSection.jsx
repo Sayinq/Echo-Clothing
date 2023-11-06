@@ -28,7 +28,7 @@ const HeroSection = () => {
         hide: false,
       }}
       modules={[Scrollbar, EffectFade]}
-      className="h-[650px]"
+      className="-mt-16 h-[650px]"
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
